@@ -200,4 +200,11 @@ content = "%{T3}%{T-}"
 content-font = 3
 content-background = ${color.magenta}
 content-foreground = ${color.cyan}
+
+[module/GBPL]
+type = custom/text
+content = "%{T3}%{T-}"
+content-font = 3
+content-background = ${color.blue}
+content-foreground = ${color.green}
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_

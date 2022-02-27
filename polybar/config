@@ -56,7 +56,7 @@ font-4 = "Source Code Pro Bold:size=13;3"
 modules-left = spacing BLD launcher BRD sep bspwm sep spacing GLD network GRD
 ;; modules-left = bspwm sep spacing GLD network GRD
 modules-center = 
-modules-right = BLD battery MPL volume RPL brightness RRD sep GLD cpu MGPL temperature CMPL filesystem CRD sep BLD time BRD spacing
+modules-right = BLD battery GBPL mic-volume MGPL volume RPL brightness RRD sep GLD cpu MGPL temperature CMPL filesystem CRD sep BLD time BRD spacing
 
 spacing = 0
 dim-value = 1.0

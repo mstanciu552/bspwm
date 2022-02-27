@@ -57,6 +57,20 @@ ramp-foreground = ${color.background}
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
+[module/mic-volume]
+type = custom/script
+interval = 1
+format =  <label>
+exec = bash ~/.config/bspwm/polybar/scripts/mic-volume.sh show-vol
+
+click-left = bash ~/.config/bspwm/polybar/scripts/mic-volume.sh mute-vol 
+scroll-up = bash ~/.config/bspwm/polybar/scripts/mic-volume.sh inc-vol 
+scroll-down = bash ~/.config/bspwm/polybar/scripts/mic-volume.sh dec-vol
+
+format-padding = 1
+format-foreground = ${color.background}
+format-background = ${color.green}
+
 [module/volume]
 type = internal/pulseaudio
 
